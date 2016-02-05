@@ -1,0 +1,36 @@
+/*
+These are helper classes, non specific to custom sections
+*/
+body {
+
+}
+
+.text-center {
+	text-align: center;
+}
+
+canvas {
+	z-index: -5;
+}
+.container {
+	max-width: 940px;
+	margin: auto;
+}
+
+/*
+Custom CSS starts here
+*/
+
+.header {
+
+}
+
+.hero {
+	margin-top: 300px;
+	text-align: left;
+	width: 66%;
+}
+
+.footer {
+
+}
