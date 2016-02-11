@@ -2,7 +2,8 @@ var cars = [];
 			
 function setup()
 {
-  createCanvas(windowWidth, windowHeight);
+  var cnv = createCanvas(windowWidth, windowHeight);
+  cnv.position(0, 0);
   
   // make 25 cars
   for(var i = 0; i < 25; i++)
