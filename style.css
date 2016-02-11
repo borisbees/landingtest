@@ -2,7 +2,9 @@
 These are helper classes, non specific to custom sections
 */
 body {
-
+	padding: 0;
+	margin: 0;
+	background-color: #12D678;
 }
 
 .text-center {
@@ -13,8 +15,16 @@ canvas {
 	z-index: -5;
 }
 .container {
+	margin-top: 55vh;
 	max-width: 940px;
+	width: 66%;
 	margin: auto;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 10px 10px #1D995B;
+	border-radius: 5px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /*
@@ -26,7 +36,6 @@ Custom CSS starts here
 }
 
 .hero {
-	margin-top: 300px;
 	text-align: left;
 	width: 66%;
 }
