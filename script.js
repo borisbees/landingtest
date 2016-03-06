@@ -30,7 +30,7 @@ function draw()
 function Vibe()
 {
   this.xpos = random(width);
-  this.ypos = random(windowHeight * .75, windowHeight);
+  this.ypos = random(0, windowHeight);
   this.speedy = random(0.5, .5);
   this.speedx = random(-1.0, 1.0);
 }
@@ -50,7 +50,7 @@ Vibe.prototype.drive = function()
 
   }
 
-  this.xpos = this.xpos + sq(this.speedx);
+  this.xpos = this.xpos + (sq(this.speedx)*noise(1)*sq(this.xpos));
   this.ypos = this.ypos - this.speedy * noise(random(.5, 1.5));        
 }
  
