@@ -4,7 +4,7 @@ These are helper classes, non specific to custom sections
 body {
 	padding: 0;
 	margin: 0;
-	background-color: #12D678;
+	background-color: #ffffff;
 }
 
 .text-center {
@@ -32,4 +32,13 @@ canvas {
 .hero {
 	text-align: left;
 	width: 66%;
+}
+
+.header{
+	background-color: #F1EC2B;
+}
+
+.logo {
+	widows: 100px;
+	margin: 20px 0px;
 }
