@@ -50,6 +50,11 @@ label {
 
 .center-margin{
 	display: block;
-	margin: 20px auto;
+	margin: auto;
 	width: 70%;
+}
+
+.margin-topbot-20 {
+	margin-top: 20px;
+	margin-bottom: 20px
 }
