@@ -16,12 +16,12 @@ canvas {
 }
 
 .container {
-	margin-top: 100px;
+	margin-top: 100px !important;
 	max-width: 940px;
 	width: 66%;
 	margin: auto;
 	background-color: rgba(241, 236, 43, 0.11);
-	box-shadow: 0px 10px 10px #1D995B;
+	box-shadow: 0px 10px 10px #b7b31f;
 	border-radius: 5px;
 	padding-top: 20px;
 	padding-left: 20px;
