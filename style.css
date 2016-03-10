@@ -50,5 +50,6 @@ label {
 
 input {
 	display: block;
-	margin: auto 20px;
+	margin: 20px auto;
+	width: 70%;
 }
