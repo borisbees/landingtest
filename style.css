@@ -16,11 +16,11 @@ canvas {
 }
 
 .container {
-	margin-top: 55vh;
+	margin-top: 100px;
 	max-width: 940px;
 	width: 66%;
 	margin: auto;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(241, 236, 43, 0.11);
 	box-shadow: 0px 10px 10px #1D995B;
 	border-radius: 5px;
 	padding-top: 20px;
@@ -36,6 +36,7 @@ canvas {
 
 .header{
 	background-color: #F1EC2B;
+    box-shadow: 0px 5px 10px #B7B31F;
 }
 
 .logo {
