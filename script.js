@@ -15,7 +15,7 @@ function setup()
 function draw()
 {
   // clear background
-  background(18, 214, 120);
+  background(255, 255, 255);
   
   // loop through each vibe
   for(var i = 0; i < vibes.length; i++)
