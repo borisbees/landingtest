@@ -43,3 +43,12 @@ canvas {
 	width: 100px;
 	margin: 20px 0px;
 }
+
+label {
+	display: none;
+}
+
+input {
+	display: block;
+	margin: auto 20px;
+}
